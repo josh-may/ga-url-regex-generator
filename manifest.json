@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "GA Custom Reports for Specific Pages",
+  "name": "URL Regex Generator",
   "description": "Create custom reports in GA for specific pages with ease. Simply add URLs into the tool & paste them into Google Analytics.",
   "version": "1.0",
   "author": "Josh May",
