@@ -16,14 +16,26 @@ window.addEventListener('keypress', function (event) {
 function mergeURLs() {
   let inputValueArr = inputField.value.split('\n');
   let arr = [];
+  let com = '.com';
 
-  for (const clean of inputValueArr) {
-    arr.push(
-      clean
-        .substring(clean.indexOf('com') + 3)
-        .split('#'[0])
-        .slice(0, 1)
-    );
+  if (inputField.value.includes(com)) {
+    for (const clean of inputValueArr) {
+      arr.push(
+        clean
+          .substring(clean.indexOf('com') + 3)
+          .split('#'[0])
+          .slice(0, 1)
+      );
+    }
+  } else {
+    for (const clean of inputValueArr) {
+      arr.push(
+        clean
+          .substring(clean.indexOf('xyz') + 3)
+          .split('#'[0])
+          .slice(0, 1)
+      );
+    }
   }
 
   p.textContent = `(${arr.join('|')})`;
