@@ -26,4 +26,6 @@
 .p {
   width: 475px;
   margin: 43px auto;
+  /* font-weight: bold; */
+  font-size: 14px;
 }

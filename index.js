@@ -20,13 +20,13 @@ function mergeURLs() {
   for (const clean of inputValueArr) {
     arr.push(
       clean
-        .substring(clean.indexOf('z') + 1)
+        .substring(clean.indexOf('com') + 3)
         .split('#'[0])
         .slice(0, 1)
     );
   }
 
-  p.textContent = arr.join('|');
+  p.textContent = `(${arr.join('|')})`;
 }
 
 /* ------NEXT------
