@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "URL Regex Generator",
   "description": "Create custom reports in GA for specific pages with ease. Simply add URLs into the tool & paste them into Google Analytics.",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Josh May",
   "action": {
     "default_icon": "index.png",
