@@ -24,8 +24,8 @@
 }
 
 .p {
-  width: 475px;
+  inline-size: 440px;
+  overflow-wrap: break-word;
   margin: 43px auto;
-  /* font-weight: bold; */
   font-size: 14px;
 }
